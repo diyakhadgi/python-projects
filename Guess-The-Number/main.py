@@ -3,6 +3,7 @@
 import random
 
 def guess(x):
+    # generates random number
     random_number = random.randint(1, x) 
     guess = 0
     while guess != random_number:
